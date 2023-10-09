@@ -1,4 +1,4 @@
-- name: installed mongodb component
+- name: Installed mongodb component
   hosts: mongodb
   become: yes
   tasks:
@@ -9,4 +9,4 @@
   - name: installed mongodb
     ansible.builtin.yum:
       name: mongodb-org
-      state: installed
+      state: Installed
